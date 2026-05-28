@@ -1,0 +1,147 @@
+{
+  "participant_id": {
+    "Description": "BIDS participant identifier matching participants.tsv and subject directories."
+  },
+  "session_id": {
+    "Description": "Baseline assessment session.",
+    "Levels": {
+      "ses-1": "Baseline assessment session."
+    }
+  },
+  "Speech": {
+    "LongName": "speech",
+    "Description": "Speech motor assessment score."
+  },
+  "FacialExpression": {
+    "LongName": "facialexp",
+    "Description": "Facial expression motor assessment score."
+  },
+  "RigidNeck": {
+    "LongName": "rigidneck",
+    "Description": "Neck rigidity motor assessment score."
+  },
+  "RigidUpperR": {
+    "LongName": "rigidupperr",
+    "Description": "Right upper limb rigidity motor assessment score."
+  },
+  "RigidUpperL": {
+    "LongName": "rigidupperl",
+    "Description": "Left upper limb rigidity motor assessment score."
+  },
+  "RigidLowerR": {
+    "LongName": "rigidlowerr",
+    "Description": "Right lower limb rigidity motor assessment score."
+  },
+  "RigidLowerL": {
+    "LongName": "rigidlowerl",
+    "Description": "Left lower limb rigidity motor assessment score."
+  },
+  "FingerTapR": {
+    "LongName": "fingertapr",
+    "Description": "Right finger tapping motor assessment score."
+  },
+  "FingerTapL": {
+    "LongName": "fingertapl",
+    "Description": "Left finger tapping motor assessment score."
+  },
+  "HandMoveR": {
+    "LongName": "handmover",
+    "Description": "Right hand movement motor assessment score."
+  },
+  "HandMoveL": {
+    "LongName": "handmovel",
+    "Description": "Left hand movement motor assessment score."
+  },
+  "ProneSupineRH": {
+    "LongName": "pronesupinerh",
+    "Description": "Right hand pronation-supination motor assessment score."
+  },
+  "ProneSupineLH": {
+    "LongName": "pronesupinelh",
+    "Description": "Left hand pronation-supination motor assessment score."
+  },
+  "TapRF": {
+    "LongName": "taprf",
+    "Description": "Right foot tapping motor assessment score."
+  },
+  "TapLF": {
+    "LongName": "taplf",
+    "Description": "Left foot tapping motor assessment score."
+  },
+  "AgilityRL": {
+    "LongName": "agilityrl",
+    "Description": "Right leg agility motor assessment score."
+  },
+  "AgilityLL": {
+    "LongName": "agilityll",
+    "Description": "Left leg agility motor assessment score."
+  },
+  "Chair": {
+    "LongName": "chair",
+    "Description": "Arising from chair motor assessment score."
+  },
+  "Walk": {
+    "LongName": "walk",
+    "Description": "Gait/walking motor assessment score."
+  },
+  "Freezing": {
+    "LongName": "freezerh",
+    "Description": "Freezing motor assessment score."
+  },
+  "PosturalInstability": {
+    "LongName": "posturalinstability",
+    "Description": "Postural instability motor assessment score."
+  },
+  "Posture": {
+    "LongName": "postura",
+    "Description": "Posture motor assessment score."
+  },
+  "MovementSpontaneity": {
+    "LongName": "movementspontaneity",
+    "Description": "Spontaneity of movement motor assessment score."
+  },
+  "PosturalTremorRH": {
+    "LongName": "posturaltremorrh",
+    "Description": "Right hand postural tremor motor assessment score."
+  },
+  "PosturalTremorLH": {
+    "LongName": "posturaltremorlh",
+    "Description": "Left hand postural tremor motor assessment score."
+  },
+  "ActionTremorRH": {
+    "LongName": "actiontremorrh",
+    "Description": "Right hand action tremor motor assessment score."
+  },
+  "ActionTremorLH": {
+    "LongName": "actiontremorlh",
+    "Description": "Left hand action tremor motor assessment score."
+  },
+  "RestingTremorUpperR": {
+    "LongName": "restingtremorupperr",
+    "Description": "Right upper limb resting tremor motor assessment score."
+  },
+  "RestingTremorUpperL": {
+    "LongName": "restingtremorupperl",
+    "Description": "Left upper limb resting tremor motor assessment score."
+  },
+  "RestingTremorLowerR": {
+    "LongName": "restingtremorlowerr",
+    "Description": "Right lower limb resting tremor motor assessment score."
+  },
+  "RestingTremorLowerL": {
+    "LongName": "restingtremorlowerl",
+    "Description": "Left lower limb resting tremor motor assessment score."
+  },
+  "RestingTremorLip": {
+    "LongName": "restingtremorlip",
+    "Description": "Lip/jaw resting tremor motor assessment score."
+  },
+  "TremorPersistency": {
+    "LongName": "tremorpersistency",
+    "Description": "Tremor persistency motor assessment score."
+  },
+  "Dyskinesia": {
+    "LongName": "dyskinesia",
+    "Description": "Dyskinesia assessment score."
+  }
+}

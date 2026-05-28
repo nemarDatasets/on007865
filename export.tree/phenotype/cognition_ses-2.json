@@ -1,0 +1,83 @@
+{
+  "participant_id": {
+    "Description": "BIDS participant identifier matching participants.tsv and subject directories."
+  },
+  "session_id": {
+    "Description": "Post-intervention assessment session.",
+    "Levels": {
+      "ses-2": "Post-intervention assessment session."
+    }
+  },
+  "wm_sequence_a1_1": {
+    "LongName": "wm sequence_a1_1",
+    "Description": "Working-memory sequence score from the source cognitive assessment table."
+  },
+  "fas_semantic_fluency_a1_1": {
+    "LongName": "fas semantic fluency_a1_1",
+    "Description": "FAS semantic fluency score from the source cognitive assessment table."
+  },
+  "fas_phonemic_fluency_a1_1": {
+    "LongName": "fas phonemic fluency_a1_1",
+    "Description": "FAS phonemic fluency score from the source cognitive assessment table."
+  },
+  "errores_no_corregidos1_a1_1": {
+    "LongName": "errores#no#corregidos1_a1_1",
+    "Description": "Uncorrected error count 1 from the source cognitive assessment table."
+  },
+  "errores_corregidos1_a1_1": {
+    "LongName": "errorescorregidos1_a1_1",
+    "Description": "Corrected error count 1 from the source cognitive assessment table."
+  },
+  "errores_corregidos2_a1_1": {
+    "LongName": "errorescorregidos2_a1_1",
+    "Description": "Corrected error count 2 from the source cognitive assessment table."
+  },
+  "errores_corregidos3_a1_1": {
+    "LongName": "errorescorregidos3_a1_1",
+    "Description": "Corrected error count 3 from the source cognitive assessment table."
+  },
+  "errores_corregidos4_a1_1": {
+    "LongName": "errorescorregidos4_a1_1",
+    "Description": "Corrected error count 4 from the source cognitive assessment table."
+  },
+  "errores_no_corregidos2_a1_1": {
+    "LongName": "erroresnocorregidos2_a1_1",
+    "Description": "Uncorrected error count 2 from the source cognitive assessment table."
+  },
+  "errores_no_corregidos3_a1_1": {
+    "LongName": "erroresnocorregidos3_a1_1",
+    "Description": "Uncorrected error count 3 from the source cognitive assessment table."
+  },
+  "errores_no_corregidos4_a1_1": {
+    "LongName": "erroresnocorregidos4_a1_1",
+    "Description": "Uncorrected error count 4 from the source cognitive assessment table."
+  },
+  "drs_a1_1": {
+    "LongName": "drs_a1_1",
+    "Description": "DRS score from the source cognitive assessment table."
+  },
+  "fab_a1_1": {
+    "LongName": "fab_a1_1",
+    "Description": "FAB score from the source cognitive assessment table."
+  },
+  "hads_a1_1": {
+    "LongName": "hads_a1_1",
+    "Description": "HADS score from the source cognitive assessment table."
+  },
+  "tiempo_total1_a1_1": {
+    "LongName": "tiempototal1_a1_1",
+    "Description": "Total time 1 from the source cognitive assessment table."
+  },
+  "tiempo_total2_a1_1": {
+    "LongName": "tiempototal2_a1_1",
+    "Description": "Total time 2 from the source cognitive assessment table."
+  },
+  "tiempo_total3_a1_1": {
+    "LongName": "tiempototal3_a1_1",
+    "Description": "Total time 3 from the source cognitive assessment table."
+  },
+  "tiempo_total4_a1_1": {
+    "LongName": "tiempototal4_a1_1",
+    "Description": "Total time 4 from the source cognitive assessment table."
+  }
+}
