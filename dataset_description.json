@@ -9,5 +9,6 @@
     "Funding": [
         "National Key R&D Program of China, (2024YFE0215100)"
     ],
-    "License": "CC0"
+    "License": "CC0",
+    "DatasetDOI": "doi:10.18112/openneuro.ds007865.v1.0.0"
 }
