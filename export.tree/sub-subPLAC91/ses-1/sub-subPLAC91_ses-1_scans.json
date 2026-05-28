@@ -1,0 +1,8 @@
+{
+  "filename": {
+    "Description": "Relative path to the acquired data file."
+  },
+  "age_acq_time": {
+    "Description": "Clock time of acquisition from the source conversion output. The original converter named this column age_acq_time."
+  }
+}
