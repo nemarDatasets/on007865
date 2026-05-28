@@ -1,0 +1,12 @@
+{
+  "Name": "Placebo Neuroepo multisession",
+  "BIDSVersion": "1.2.0",
+  "Authors": [
+    "Maria Luisa Bringas Vega",
+    "Lilia Morales Chacon",
+    "Ivonne Pedroso Ibanez"
+  ],
+  "Funding": [
+    "National Key R&D Program of China, (2024YFE0215100)"
+  ]
+}
