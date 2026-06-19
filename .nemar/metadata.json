@@ -1,34 +1,94 @@
 {
   "version": "2.0",
-  "dataset_id": "on007865",
-  "source": "openneuro",
-  "source_id": "ds007865",
+  "pipeline_stage": "validated",
   "title": "Placebo Neuroepo multisession Phase II and III",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Maria Luisa Bringas Vega": {},
     "Lilia Morales Chacon": {},
     "Ivonne Pedroso Ibanez": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007865.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007865",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007865",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007865",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "National Key R&D Program of China, (2024YFE0215100)"
+      "funder_name": "National Key R&D Program of China",
+      "award_number": "2024YFE0215100"
     }
-  ]
+  ],
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "A randomized, placebo-controlled clinical trial dataset investigating the neuroprotective and neuromodulatory effects of intranasal NeuroEPO (erythropoietin-derived formulation) in Parkinson's disease patients. The study combines EEG neuroimaging with clinical assessments including motor severity ratings to evaluate treatment-related changes in brain function and symptomatology. Clinical and EEG assessments were conducted at baseline (pre-intervention) and 9 months after completion of the intervention period (post-intervention).",
+  "methods_description": "Participants were enrolled in a randomized, placebo-controlled study with NeuroEPO administered intranasally according to protocol (Cuban Public Registry RPCEC00000233-En) or placebo. Clinical and EEG assessments were conducted at baseline (pre-intervention) and 9 months after completion of the intervention period (post-intervention). Motor performance was assessed using the Unified Parkinson Disease Rating Scale MDS UPDRS III by certified neurologists, with severity recorded as ordinal 0-4 grades.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Parkinson's disease"
+    },
+    {
+      "term": "erythropoietin"
+    },
+    {
+      "term": "neuroprotection"
+    },
+    {
+      "term": "randomized controlled trial"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "synaptic plasticity"
+    },
+    {
+      "term": "motor assessment"
+    },
+    {
+      "term": "UPDRS III"
+    },
+    {
+      "term": "dopaminergic"
+    },
+    {
+      "term": "motor symptoms"
+    },
+    {
+      "term": "intranasal administration"
+    }
+  ],
+  "source_hash": "3274f3c9c0b6bb144cfe7c8fdd93bccd568682338d1d9b48ad691d56ea47b68c"
 }
