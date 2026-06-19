@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Placebo Neuroepo multisession Phase II and III",
-  "description": "A randomized, placebo-controlled clinical trial investigating the neuroprotective and neuromodulatory effects of intranasal NeuroEPO (erythropoietin) in Parkinson's disease patients. The dataset comprises two-session EEG recordings and clinical assessments collected at baseline (pre-intervention) and 9 months post-intervention, with participants stratified into active treatment and placebo groups. This Phase II/III study evaluates whether NeuroEPO exposure produces functional brain reorganization detectable via EEG source localization and associated clinical outcomes.",
-  "methods_description": "Participants were enrolled in a randomized, placebo-controlled design with NeuroEPO administered intranasally according to protocol (Cuban Public Registry RPCEC00000233-En) or placebo with identical procedures. Clinical and EEG assessments were conducted at baseline (pre-intervention) and 9 months post-intervention. Motor severity was assessed using the Unified Parkinson Disease Rating Scale MDS UPDRS III by certified neurologists. Cumulative treatment exposure was quantified as total NeuroEPO dose, with placebo participants coded as dose = 0.",
+  "description": "A randomized, placebo-controlled clinical trial investigating the neuroprotective and neuromodulatory effects of intranasal NeuroEPO (erythropoietin) in Parkinson's disease patients. The dataset comprises multisession EEG recordings and clinical assessments collected at two timepoints: baseline (pre-intervention) and 9 months post-intervention, with participants stratified by treatment exposure (NeuroEPO vs. placebo). Motor function was evaluated using the MDS-UPDRS III scale, and EEG source activity was examined as a potential mediator of treatment-related cognitive and functional outcomes.",
+  "methods_description": "Participants were enrolled in a randomized, placebo-controlled study with NeuroEPO administered intranasally according to protocol (Cuban Public Registry RPCEC00000233-En) or placebo. Clinical and EEG assessments were conducted at baseline (pre-intervention) and 9 months post-intervention. Motor performance was assessed by certified neurologists using MDS-UPDRS III item scores. Baseline demographic variables included age, education, disease duration, and motor severity. EEG source localization was performed using inverse solution methods to examine source activity as a potential mediator of treatment-related cognitive and functional outcomes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,40 +28,44 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004921"
     },
     {
-      "term": "neuroprotection",
+      "term": "Neuroprotection",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018696"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000066829"
     },
     {
-      "term": "placebo-controlled trial",
+      "term": "Randomized Controlled Trial",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D016032"
     },
     {
-      "term": "EEG source localization"
-    },
-    {
-      "term": "clinical trial",
+      "term": "Brain Mapping",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D002986"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
     },
     {
-      "term": "intranasal",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007319"
-    },
-    {
-      "term": "motor assessment",
+      "term": "Motor Activity",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
     },
     {
-      "term": "UPDRS",
+      "term": "Administration, Intranasal",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000068079"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007319"
     },
     {
-      "term": "NeuroEPO"
+      "term": "Neuronal Plasticity",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009473"
+    },
+    {
+      "term": "Placebo Effect",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015990"
+    },
+    {
+      "term": "Dopaminergic System",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017447"
     }
   ],
   "related_identifiers": [
