@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Placebo Neuroepo multisession Phase II and III",
-  "description": "A randomized, placebo-controlled clinical trial investigating the neuroprotective and neuromodulatory effects of intranasal NeuroEPO (erythropoietin) in Parkinson's disease patients. The dataset comprises multisession EEG recordings and clinical assessments collected at two timepoints: baseline (pre-intervention) and 9 months post-intervention, with participants stratified by treatment exposure (NeuroEPO vs. placebo). Motor function was evaluated using the MDS-UPDRS III scale, and EEG source activity was examined as a potential mediator of treatment-related cognitive and functional outcomes.",
-  "methods_description": "Participants were enrolled in a randomized, placebo-controlled study with NeuroEPO administered intranasally according to protocol (Cuban Public Registry RPCEC00000233-En) or placebo. Clinical and EEG assessments were conducted at baseline (pre-intervention) and 9 months post-intervention. Motor performance was assessed by certified neurologists using MDS-UPDRS III item scores. Baseline demographic variables included age, education, disease duration, and motor severity. EEG source localization was performed using inverse solution methods to examine source activity as a potential mediator of treatment-related cognitive and functional outcomes.",
+  "description": "A randomized, placebo-controlled clinical trial investigating the neuroprotective and neuromodulatory effects of intranasal NeuroEPO (erythropoietin) in Parkinson's disease patients. The study combines clinical assessments using the MDS-UPDRS III scale with EEG recordings at baseline and 9-month post-intervention timepoints to evaluate whether NeuroEPO-induced changes in brain function, as measured by EEG source activity, mediate cognitive and motor outcomes. This multisession Phase II/III dataset provides evidence for EPO's role in synaptic plasticity and dopaminergic system resilience.",
+  "methods_description": "Participants were enrolled in a randomized, placebo-controlled design with NeuroEPO administered intranasally according to protocol (Cuban Public Registry RPCEC00000233-En) or placebo. Clinical and EEG assessments were conducted at baseline (pre-intervention) and 9 months post-intervention. Motor severity was assessed by certified neurologists using MDS-UPDRS III item scores. Cumulative treatment exposure was quantified as total NeuroEPO dose.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,9 +13,7 @@
   },
   "keywords": [
     {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
       "term": "Parkinson Disease",
@@ -23,59 +21,36 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "erythropoietin",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004921"
+      "term": "erythropoietin"
     },
     {
-      "term": "Neuroprotection",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000066829"
+      "term": "neuroprotection"
     },
     {
-      "term": "Randomized Controlled Trial",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D016032"
+      "term": "placebo-controlled trial"
     },
     {
-      "term": "Brain Mapping",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
+      "term": "neuroimaging"
     },
     {
-      "term": "Motor Activity",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009048"
+      "term": "synaptic plasticity"
     },
     {
-      "term": "Administration, Intranasal",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007319"
+      "term": "randomized controlled trial"
     },
     {
-      "term": "Neuronal Plasticity",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009473"
+      "term": "dopaminergic system"
     },
     {
-      "term": "Placebo Effect",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015990"
+      "term": "intranasal administration"
     },
     {
-      "term": "Dopaminergic System",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D017447"
+      "term": "clinical trial"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007865",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007865",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -88,6 +63,11 @@
       "identifier": "10.18112/openneuro.ds007865.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007865",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -101,7 +81,7 @@
     "eeg"
   ],
   "sizes": [
-    "0.0 KB (54 files)"
+    "283.4 MB (54 files)"
   ],
   "formats": [
     ".edf",
