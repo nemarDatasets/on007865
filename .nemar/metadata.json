@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Placebo Neuroepo multisession Phase II and III",
-  "description": "A randomized, placebo-controlled clinical trial investigating the neuroprotective and neuromodulatory effects of intranasal NeuroEPO (erythropoietin) in Parkinson's disease patients. The study combines clinical assessments using the MDS-UPDRS III scale with EEG recordings at baseline and 9-month post-intervention timepoints to evaluate whether NeuroEPO-induced changes in brain function, as measured by EEG source activity, mediate cognitive and motor outcomes. This multisession Phase II/III dataset provides evidence for EPO's role in synaptic plasticity and dopaminergic system resilience.",
-  "methods_description": "Participants were enrolled in a randomized, placebo-controlled design with NeuroEPO administered intranasally according to protocol (Cuban Public Registry RPCEC00000233-En) or placebo. Clinical and EEG assessments were conducted at baseline (pre-intervention) and 9 months post-intervention. Motor severity was assessed by certified neurologists using MDS-UPDRS III item scores. Cumulative treatment exposure was quantified as total NeuroEPO dose.",
+  "description": "Multisession EEG dataset from a randomized, placebo-controlled study of intranasal NeuroEPO (erythropoietin-derived formulation) in patients with Parkinson's disease. Clinical (MDS-UPDRS III) and EEG assessments were acquired at baseline and 9 months after completing the intervention. Cumulative NeuroEPO dose is coded per participant (placebo = 0), enabling analysis of treatment effects on brain activity.",
+  "methods_description": "Participants were randomized to NeuroEPO or placebo. Clinical and EEG assessments were conducted pre-intervention and 9 months after the intervention period. Motor severity was rated by two certified neurologists using MDS-UPDRS III. Cumulative dose was quantified as total NeuroEPO dose, with placebo coded as 0.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,31 +21,18 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "erythropoietin"
+      "term": "Erythropoietin",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004921"
     },
     {
-      "term": "neuroprotection"
+      "term": "NeuroEPO"
     },
     {
       "term": "placebo-controlled trial"
     },
     {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "synaptic plasticity"
-    },
-    {
-      "term": "randomized controlled trial"
-    },
-    {
-      "term": "dopaminergic system"
-    },
-    {
-      "term": "intranasal administration"
-    },
-    {
-      "term": "clinical trial"
+      "term": "longitudinal"
     }
   ],
   "related_identifiers": [
@@ -81,7 +68,7 @@
     "eeg"
   ],
   "sizes": [
-    "283.4 MB (54 files)"
+    "270 MB (54 files)"
   ],
   "formats": [
     ".edf",
